@@ -14,36 +14,29 @@
 
 </head>
 <body> 
-       <div class="off-screen-menu">
-           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#cardInfo">About</a></li>
-            <li><a href="#contactUs">Contact</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </div>
+
     <nav class="navbar" id="navbar" data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out"  data-aos-delay="300">
         <div class="logo">
             <a href="index.html"><img src="images/logo.png" alt="North Macedonia Logo"></a>
         </div>
      
-        <div class="ham-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#cardInfo">About</a></li>
-            <li><a href="#contactUs">Contact</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+     
+        <ul id="navLinks">
+            <li><a href="index.html"><i class="fa-solid fa-home" style="margin: 0 1rem;"></i>Home</a></li>
+            <li><a href="#cardInfo"><i class="fa-solid fa-home" style="margin: 0 1rem;"></i>About</a></li>
+            <li><a href="#contactUs"><i class="fa-solid fa-home" style="margin: 0 1rem;"></i>Contact</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-home" style="margin: 0 1rem;"></i>Gallery</a></li>
         </ul>
         <div class="login">
             <button id="loginButton">Login</button>
         </div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" style="color: white; font-size: 2rem; margin-right: 2rem;" onclick="toggle()"></i>
+        </div>
+         
     </nav>
     <!--Hero section-->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-content" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2500" data-aos-easing="ease-in-out">
             <h1>Welcome to <br>North <span>Macedonia</span></h1>
             <p>Discover the beauty and culture of this Southeast European gem.</p>
