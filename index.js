@@ -12,7 +12,7 @@ function toggle() {
     }
     let hero = document.getElementById("hero");
     if (navLinks.style.maxHeight == "300px") {
-        hero.style.marginTop = "7rem";
+        hero.style.marginTop = "10rem";
     } else {
         hero.style.marginTop = "0";
     }
